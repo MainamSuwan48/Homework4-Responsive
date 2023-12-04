@@ -11,7 +11,7 @@ a {
   }
 
   body{
-    max-width: 1500px;
+    max-width: 1200px;
     margin: auto;
   }
 /* Navbar */
@@ -33,6 +33,10 @@ background: linear-gradient(180deg, rgba(237,221,64,0.7063200280112045) 0%, rgba
 
   nav a{
     color:#1d1d1f ;
+  }
+
+  nav a:hover{
+    color:#ffd43b ;
   }
 
   .hamburger{
@@ -127,6 +131,40 @@ background: linear-gradient(180deg, rgba(237,221,64,0.7063200280112045) 0%, rgba
     font-size: 16px;
   }
 
+  /* Post-Section @ Blog page*/
+
+  .blog-page-post{
+    justify-content: center;    
+    margin: 8rem;
+    
+  }
+
+  .blog-page-post .content{
+    max-width: 800px;
+    gap: 2rem;
+  }
+
+  .blog-page-post .content h4{
+    font-size: 2rem;
+    font-weight: 700;    
+  }
+
+  .content p{
+    font-size: 1rem;
+  }
+
+  .blog-page-post .info-bar{    
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .blog-page-post .info-bar p{
+    font-size: 1.5rem;
+    justify-content: flex-start;
+  }
+
+  
+
   /* work-section */
 
   .works-title {    
@@ -184,6 +222,14 @@ background: linear-gradient(180deg, rgba(237,221,64,0.7063200280112045) 0%, rgba
     background: #878787;
     height: 2px;
     
+  }
+
+  /* work-section @ works page*/
+
+  .works-title-work{
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    font-weight: 700;
   }
 
   /* Footer */
